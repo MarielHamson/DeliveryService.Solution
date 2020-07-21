@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using PackageDelivery.Models;
 
-namespace ProjectName.Tests
+namespace PackageDelivery.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class ParcelTests
   {
 
     // Test methods will go here.

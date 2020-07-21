@@ -1,6 +1,6 @@
-namespace ProjectName.Models
+namespace PackageDelivery.Models
 {
-  public class ClassName
+  public class Parcel
   {
 
     // properties, methods, etc. will go here.
