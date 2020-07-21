@@ -38,7 +38,7 @@ namespace PackageDelivery.Tests
     public void FindVolume_CalcVolume_True()
     {
       Parcel parcelTest = new Parcel(10, 15, 10, 20);
-      Assert.AreEqual(parcelTest.findVolume(), 1501);
+      Assert.AreEqual(parcelTest.findVolume(), 1500);
     }
   }
 }
