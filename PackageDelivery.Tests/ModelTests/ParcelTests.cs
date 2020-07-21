@@ -18,20 +18,27 @@ namespace PackageDelivery.Tests
     {
       int height = 10;
       int width = 15;
-      int depth = 10;
+      int length = 10;
       Parcel parcelTest = new Parcel(10, 15, 10, 10);
       int testHeight = parcelTest.Height;
       int testWidth = parcelTest.Width;
-      int testDepth = parcelTest.Depth;
+      int testLength = parcelTest.Length;
       Assert.AreEqual(height, testHeight);
       Assert.AreEqual(width, testWidth);
-      Assert.AreEqual(depth, testDepth);
+      Assert.AreEqual(length, testLength);
     }
     [TestMethod]
     public void GetWeight_ShouldHaveWeight_BeWeighty()
     {
       Parcel parcelTest = new Parcel(10, 15, 10, 20);
       Assert.AreEqual(parcelTest.Weight, 20);
+    }
+
+    [TestMethod]
+    public void FindVolume_CalcVolume_True()
+    {
+      Parcel parcelTest = new Parcel(10, 15, 10, 20);
+      Assert.AreEqual(parcelTest.findVolume(), 1501);
     }
   }
 }
