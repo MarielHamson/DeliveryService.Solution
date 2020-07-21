@@ -47,7 +47,7 @@ namespace PackageDelivery.Tests
       Parcel parcelTest = new Parcel(10, 15, 10, 20);
       int volume = parcelTest.findVolume();
       int totalPrice = parcelTest.findPrice(volume);
-      Assert.AreEqual(totalPrice, 2);
+      Assert.AreEqual(totalPrice, 30000);
     }
   }
 }
