@@ -31,7 +31,7 @@ namespace PackageDelivery.Tests
     public void GetWeight_ShouldHaveWeight_BeWeighty()
     {
       Parcel parcelTest = new Parcel(10, 15, 10, 20);
-      Assert.AreEqual(parcelTest.Weight, 10);
+      Assert.AreEqual(parcelTest.Weight, 20);
     }
   }
 }
