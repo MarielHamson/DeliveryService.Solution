@@ -6,5 +6,10 @@ namespace PackageDelivery.Controllers
 {
   public class ParcelController : Controller
   {
+    [HttpGet("/form")]
+    public ActionResult Index()
+    {
+      return View();
+    }
   }
 }
